@@ -1,6 +1,10 @@
 #include <Arduino.h>
+#include <Servo.h>
+
+Servo serv;
 
 const int led = 13;
+const int servo = 10;
 
 int serial_putchar(char c, FILE* f);
 void setup();
@@ -21,6 +25,9 @@ void setup()
 	Serial.begin(115200);
 	fdev_setup_stream(&serial_stdout, serial_putchar, NULL, _FDEV_SETUP_WRITE);
 	stdout = &serial_stdout;
+	
+	serv.attach(servo);
+	serv.write(90);
 }
 
 void loop()
