@@ -56,7 +56,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>NDEBUG</Value>
 </ListValues></avrgcc.compiler.symbols.DefSymbols>
-  <avrgcc.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard</Value></ListValues></avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard</Value></ListValues></avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
   <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
@@ -68,7 +68,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>NDEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
-  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
@@ -96,7 +96,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>DEBUG</Value>
 </ListValues></avrgcc.compiler.symbols.DefSymbols>
-  <avrgcc.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard</Value></ListValues></avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard</Value></ListValues></avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
   <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
@@ -108,7 +108,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>DEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
-  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
@@ -124,7 +124,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C:\Program Files (x86)\Arduino\libraries\Servo\Servo.cpp">
+    <Compile Include="C:\Program Files (x86)\Arduino\libraries\Servo\src\avr\Servo.cpp">
       <SubType>compile</SubType>
       <Link>Servo.cpp</Link>
     </Compile>

@@ -1,7 +1,7 @@
-# Atmel Studio 6.2 example project for AVR projects using Arduino Library 1.0.x
+# Atmel Studio 6.2 example project for AVR projects using Arduino Library 1.5.x
 
 Don't use this project as is. Use it as project template instead.
-To be used with [`studio_6_arduino_100`](https://github.com/damadmai/studio_6_arduino_100).
+To be used with [`studio_6_arduino_150`](https://github.com/damadmai/studio_6_arduino_150).
 
 ## Instructions
 
@@ -15,7 +15,7 @@ To be used with [`studio_6_arduino_100`](https://github.com/damadmai/studio_6_ar
 `%USERPROFILE%\Documents\Atmel Studio\My Exported Templates` as well as in 
 `%USERPROFILE%\Documents\Atmel Studio\Templates\ProjectTemplates`.
 * Close the solution and delete the repository if you wish.
-* Follow the instructions in [`studio_6_arduino_100`](https://github.com/damadmai/studio_6_arduino_100) to use it.
+* Follow the instructions in [`studio_6_arduino_150`](https://github.com/damadmai/studio_6_arduino_150) to use it.
 
 ## License
 
