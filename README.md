@@ -7,7 +7,7 @@ To be used with [`studio_6_arduino_150`](https://github.com/damadmai/studio_6_ar
 
 1. Clone this repository to desktop.
 * Open [`studio_arduino.cppproj`](./studio_arduino.cppproj) with 
-  [Atmel Studio 6.2](http://www.mikrocontroller.net/articles/Atmel_Studio) .
+  [Atmel Studio 6.2](https://www.mikrocontroller.net/articles/Atmel_Studio).
 * Click `File` &rarr; `Export Template` in menu bar.
 * Click `Yes` and then `Save`.
 * Click `Continue`, add description if you wish and then `Finish`.
