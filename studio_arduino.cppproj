@@ -65,7 +65,7 @@
   <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcccpp.compiler.symbols.DefSymbols><ListValues>
   <Value>F_CPU=16000000L</Value>
-  <Value>ARDUINO=150</Value>
+  <Value>ARDUINO=160</Value>
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>NDEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
@@ -106,7 +106,7 @@
   <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcccpp.compiler.symbols.DefSymbols><ListValues>
   <Value>F_CPU=16000000L</Value>
-  <Value>ARDUINO=150</Value>
+  <Value>ARDUINO=160</Value>
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>DEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
